@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">UQPAY Host-UI Demo</string>
+  <string name="button_send">Open Host UI</string>
+  <string name="card">Card Info</string>
+  <string name="cardNo">card num:</string>
+  <string name="cardIssuer">issuer:</string>
+  <string name="cardUUID">uuid:</string>
+</resources>
