@@ -22,7 +22,7 @@ allprojects {
 Add the dependency in your `build.gradle`:
 ```groovy
 dependencies {
-    implementation 'com.uqpay.sdk:host-ui:1.0.0-SNAPSHOT'
+    implementation 'com.uqpay.sdk:host-ui:1.1.0-SNAPSHOT'
 }
 ```
 
