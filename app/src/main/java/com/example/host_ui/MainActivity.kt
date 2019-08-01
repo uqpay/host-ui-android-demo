@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                 val cardBean:BankCardResult = data!!.getParcelableExtra(UQPayHostUI.UQPAY_CARD_SELECTED)
                 cardNo.text = cardBean.panTail
                 cardIssuer.text = cardBean.issuer
-                cardUUID.text = cardBean.uuid // use this uuid send to UQPAY Payment Server by our Server Side SDK with your Order Data
+                cardUUID.text = cardBean.cardToken // use this card token send to UQPAY Payment Server by our Server Side SDK with your Order Data
             }
         }
     }

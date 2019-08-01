@@ -16,11 +16,11 @@ buildscript {
 
 allprojects {
     repositories {
-        google()
-        jcenter()
         maven {
             url 'http://dev.uqpay.cn:8081/repository/maven-public/'
         }
+        google()
+        jcenter()
         maven {
             url 'https://oss.sonatype.org/content/repositories/snapshots/'
         }
